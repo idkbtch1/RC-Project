@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Admin Index</h2>
+
+<div class="text-center">
+    <h3>Welcome Admin, @ViewBag.Greeting</h3>
+    <a class="btn btn-primary" asp-action="AddProduct">Adicionar Artigos</a>
+</div>
